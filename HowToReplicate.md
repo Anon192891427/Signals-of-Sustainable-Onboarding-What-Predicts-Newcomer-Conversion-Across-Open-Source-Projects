@@ -16,8 +16,10 @@ project-root/
 │  ├─ shard_20.features.json
 │  ├─ shard_20.scored.json
 │  ├─ comments_365d/
-│  │  ├─ shard_01/**/tox_index.json (and various comments)
-│  │  └─ ... (one subfolder per shard containing `tox_index.json`)
+│  │  ├─ shard_01/**/tox_index.json
+│  │  ├─ ... (and there will be repo level comments inside of shard_xx/repo
+│  │  └─ shard_20/**/tox_index.json ...
+
 
 ```
 rac_mine.py
