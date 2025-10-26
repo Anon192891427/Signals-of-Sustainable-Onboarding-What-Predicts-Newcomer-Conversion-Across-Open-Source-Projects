@@ -6,6 +6,7 @@ This document provides step-by-step instructions to reproduce the newcomer outco
 # Small note:
 If you wanted Unzip the provided zips into a folder named mined/ at the project root. After extraction, the directory should look like this (paths that matter):
 
+```
 project-root/
 ├─ mined/
 │  ├─ shard_01.raw.json
@@ -19,7 +20,7 @@ project-root/
 │  │  ├─ shard_01/**/tox_index.json
 │  │  ├─ ... (and there will be repo level comments inside of shard_xx/repo
 │  │  └─ shard_20/**/tox_index.json ...
-
+```
 
 ```
 rac_mine.py
