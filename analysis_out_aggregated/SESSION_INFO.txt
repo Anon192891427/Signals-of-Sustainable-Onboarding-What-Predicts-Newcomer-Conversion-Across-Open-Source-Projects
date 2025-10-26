@@ -1,0 +1,12 @@
+Session Info
+=============
+Date: 2025-10-25 21:18:22.145820
+Python: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+NumPy: 2.3.4
+Pandas: 2.3.3
+Statsmodels: 0.14.5
+SciPy: 1.16.2
+Matplotlib: 3.10.7
+
+Command-line arguments:
+{'features_json': 'mined/all.features.json', 'scored_json': 'mined/all.scored.json', 'tox_json': 'mined/all.tox_index.json', 'exclude_list': None, 'min_pr_denom': 5, 'winsor': 0.0, 'alpha': 0.05, 'min_effect_or': 1.05, 'cluster_col': None, 'use_firth': False, 'ridge_alpha': 0.0, 'aggregate_retention': True, 'outdir': 'analysis_out_aggregated'}
