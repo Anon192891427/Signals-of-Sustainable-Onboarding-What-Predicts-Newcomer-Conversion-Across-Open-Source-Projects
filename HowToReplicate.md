@@ -3,6 +3,22 @@
 
 This document provides step-by-step instructions to reproduce the newcomer outcomes and toxicity analysis pipeline using the provided scripts:
 
+# Small note:
+If you wanted Unzip the provided zips into a folder named mined/ at the project root. After extraction, the directory should look like this (paths that matter):
+
+project-root/
+├─ mined/
+│  ├─ shard_01.raw.json
+│  ├─ shard_01.features.json
+│  ├─ shard_01.scored.json
+│  ├─ ...
+│  ├─ shard_20.raw.json
+│  ├─ shard_20.features.json
+│  ├─ shard_20.scored.json
+│  ├─ comments_365d/
+│  │  ├─ shard_01/**/tox_index.json (and various comments)
+│  │  └─ ... (one subfolder per shard containing `tox_index.json`)
+
 ```
 rac_mine.py
 tox_score_comments.py
